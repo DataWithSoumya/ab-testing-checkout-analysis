@@ -1,0 +1,16 @@
+,0
+control_conversion_rate,0.0761
+treatment_conversion_rate,0.0908
+absolute_lift_pp,0.0148
+relative_lift_pct,19.4
+p_value,2e-05
+statistically_significant,True
+srm_p_value,0.5194
+srm_pass,True
+mde_at_80pct_power,0.0093
+strongest_segment,Mobile
+strongest_segment_lift_pp,0.0207
+weakest_segment,Desktop
+weakest_segment_lift_pp,0.0051
+early_period_lift_pp,0.0091
+later_period_lift_pp,0.0153
