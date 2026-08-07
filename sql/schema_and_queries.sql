@@ -1,6 +1,6 @@
 -- ============================================================
 -- A/B Test Analysis: Checkout Redesign — SQL
--- Works with SQLite / PostgreSQL / MySQL (minor syntax tweaks
+-- Works with SQL / PostgreSQL / MySQL (minor syntax tweaks
 -- may be needed for date functions depending on engine)
 -- ============================================================
 
@@ -19,8 +19,8 @@ CREATE TABLE IF NOT EXISTS experiment_data (
 -- Load data/experiment_data_clean.csv into this table before running queries
 -- (rename the CSV's 'group' column header to 'group_name' on import, or
 -- alias it in your import step).
--- Example (SQLite CLI):
---   sqlite3 ab_test.db
+-- Example (SQL CLI):
+--   SQL3 ab_test.db
 --   .mode csv
 --   .import data/experiment_data_clean.csv experiment_data
 
