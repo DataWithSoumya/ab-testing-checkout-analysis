@@ -19,7 +19,7 @@ across user segments, and should the team actually ship it?*
 
 - **Python**: pandas, numpy, scipy.stats (two-proportion z-test, Welch's
   t-test, chi-square test), matplotlib
-- **SQL**: SQLite (queries portable to PostgreSQL/MySQL with minor tweaks)
+- **SQL**: SQL (queries portable to PostgreSQL/MySQL with minor tweaks)
 - **Data**: synthetic user-level experiment data (25,559 users, 30 days) —
   intentionally includes missing values, inconsistent group-label casing,
   and duplicate rows for cleaning practice
@@ -51,9 +51,9 @@ python analysis.py
 This cleans the data, runs all statistical tests, prints results to the
 console, and regenerates all charts in `images/`.
 
-To run the SQL queries, load the cleaned CSV into SQLite:
+To run the SQL queries, load the cleaned CSV into SQL:
 ```bash
-sqlite3 data/ab_test.db
+SQL3 data/ab_test.db
 .mode csv
 .import data/experiment_data_clean.csv experiment_data
 .read sql/schema_and_queries.sql
